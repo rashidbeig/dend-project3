@@ -187,9 +187,10 @@ songplay_table_insert = ("""
             e.location      AS location, 
             e.userAgent     AS user_agent
     FROM staging_events e
-    JOIN staging_songs  s   ON (e.song = s.title AND e.artist = s.artist_name)
+    JOIN staging_songs  s ON e.artist = s.artist_name
     AND e.page  =  'NextSong' ;
 """)
+
 
 # GET NUMBER OF ROWS IN EACH TABLE
 get_number_staging_events = ("""
