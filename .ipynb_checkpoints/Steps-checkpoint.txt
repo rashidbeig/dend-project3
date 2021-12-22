@@ -1,0 +1,32 @@
+STEP 1: 
+
+Follow the steps and code in aws_cluster_create.ipynb to create Redshift Cluster
+
+STEP 2:
+
+Complete sql_queries.py to create tables.
+
+STEP 3:
+
+Complete create_tables.py python code to run sql_queries.py
+
+Ensure the dwh.cfg details are correct as per create_tables.py
+
+STEP 4:
+
+Log into Redshift to query data from console.
+
+STEP 5:
+
+Run etl.py to copy data into staging tables and insert data into final tables.
+
+STEP 6:
+
+Create file analysis.py to run the analysis queries.
+
+STEP 7:
+
+Delete the Redshift cluster
+
+
+   
